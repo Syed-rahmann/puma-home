@@ -1,0 +1,929 @@
+@font-face {
+    font-family: 'FF DIN for Puma W01 Cond Bold';
+    src: url('path-to-your-font.woff2') format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+.offerupdate{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+    word-spacing: 4px;
+}
+.zone-2{
+
+    height: 8.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+    font-family: "FF DIN for Puma W01 Cond Bold"; 
+   
+
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 6%;
+}
+
+.nav1 img {
+    height: 40px;
+    width: auto;
+}
+.nav1 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.search-container input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: black;
+}
+
+.search-container input[placeholder="SEARCH"]{
+    width: 90%;
+}
+
+
+.search-container{
+    display: flex;
+    border: 0.5px solid white;
+    width:35%;
+    padding: 6px;
+}
+
+
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 10%;
+}
+
+.zone-3{
+    width: 100%;
+    height: 11vh;
+    font-size: 1rem;
+    background-color:rgb(65, 69, 132);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+.zone-4{
+    position: relative;
+}
+.zone-4 img{
+    width: 100%;
+    height: 75vh; 
+}
+
+.zone4info{
+    position: absolute; 
+    top: 40%; 
+    left: 4%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+.zone4btn{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.zone4btn button{
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 7px 28px;
+    font-weight: 600;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+
+
+
+.zone-5 {
+    background-image: url(https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_2880/cms/images/f5eaefeafb5a5ff5ca2d77b22f6b7653aed842da?_a=BAMCkGfi0);
+    object-fit: cover;
+    width: 100%;
+    height: 40vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+.zone-5 button{
+    margin-top: 1.15%;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 7px 28px;
+    font-weight: 600;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+.zone-6{
+    background-color: rgb(218, 210, 204);
+    width: 100%;
+    height: 50vh;
+    margin-top: 5.5%;
+    position: relative;
+    overflow: visible;
+}
+
+.thediv{
+    position: absolute;
+    top: 10%; 
+    left: 10%; 
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 40px;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+    z-index: 3; /* Keeps text above the image */
+}
+
+.zone-6 button{
+    margin-top: 1.15%;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 9px 28px;
+    font-weight: 600;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+
+
+.z6img img{
+    position: absolute;
+    height: 70vh;
+    width: 40vw;
+    left: 160%; 
+    top: -10vh; 
+    margin-left: -20vw; 
+    z-index: 2; 
+  
+}
+
+.video-container video {
+    width: 90%;
+    height: 40vh;
+    max-width: 800px; 
+    top: -10vh; 
+    left: 40%;
+    z-index: 1; 
+   
+}
+
+.zone-7{
+    margin-top: 12%;
+}
+
+.play{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.play-head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin: 10px;
+    
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #555;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    
+  }
+  
+  .part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .part-txt {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .part-btn {
+    display: inline-block;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  
+  }
+
+.zone-9{
+    width: 100%;
+}
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  
+  .container>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .bts {
+    display: inline-block;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  
+  }
+
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin:50px;
+    
+
+
+}
+.gallery-item {
+    position: relative;
+    margin: 1%;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    /* border-radius: 10px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    /* text-align: center; */
+}
+
+
+.high{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.high-head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.viraaatkolhi {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10px;
+    margin: 10px;
+    
+}
+
+.viraaatkolhi img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.viraaatkolhi-content {
+    padding: 20px;
+}
+
+.viraaatkolhi-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.viraaatkolhi-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.viraaatkolhi-button:hover {
+    background-color: #555;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/953b99043fc3ec28d0f78a56167e739a51d6afc8?_a=BAMCkGfi0'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+/* Text content styling */
+.banner-content {
+    max-width: 300px;
+}
+
+.banner-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e4e4e4;
+}
+
+/* Button styling */
+.banner-content .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+}
+
+
+
+.season-title {
+    margin: 20px;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.season-gallery {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+.season-card {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.season-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.season-caption {
+    position: absolute;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    bottom: 10px;
+}
+
+
+
+.mmq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_6000/cms/images/21e926883273ea2f81973344ac8fdd4174716bd5?_a=BAMCkGfi0'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Text content styling */
+.mmq-caption {
+    color: #fff;
+    font-weight: 500;
+}
+
+.mmq-caption h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.mmq-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e4e4e4;
+}
+
+/* Button styling */
+.mmq-caption .mmq-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .mmq-caption h1 {
+        font-size: 2rem;
+    }
+
+    .mmq-caption p {
+        font-size: 1rem;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+.p1{
+    margin:10px;
+}
+.info{
+    display: flex;
+    justify-content:space-between;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+.inside-card{
+    margin: 20px;
+    font-family: "FF DIN for Puma W01 Cond Bold";
+}
+.inside-card img{
+    width:22vw;
+    height:400px;
+
+}
+
+/* footer baba */
+
+.footer {
+    background-color: #1D1D1B;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer .fcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .col-md-3 {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #e0e0e0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    /* Circular icons */
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+/* Social media logos */
+.youtube {
+    background-image: url('https://in.puma.com/_next/static/assets/icons/social-youtube.svg#icon');
+}
+
+.twitter {
+    background-image: url('https://in.puma.com/_next/static/assets/icons/social-x.svg#icon');
+}
+
+.pinterest {
+    background-image: url('https://in.puma.com/_next/static/assets/icons/social-pinterest.svg#icon');
+}
+
+.instagram {
+    background-image: url('https://in.puma.com/_next/static/assets/icons/social-instagram.svg#icon');
+}
+
+.facebook {
+    background-image: url('https://in.puma.com/_next/static/assets/icons/social-facebook.svg#icon');
+}
+
+/* Hover effect */
+
+
+.social-media a:hover {
+    opacity: 0.7;
+}
+
+/* Dropdown for smaller screens */
+.dropdown-toggle {
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-toggle:hover {
+    color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .dropdown-toggle {
+        display: none;
+    }
+
+    .dropdown-toggle.active {
+        display: block;
+    }
+
+    .dropdown-toggle a {
+        display: block;
+        padding: 5px 10px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    .dropdown-toggle a:hover {
+        background-color: #444;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer .col-md-3 {
+        flex-basis: 25%;
+    }
+}
+
+.bottom-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bottom-links li {
+    margin-right: 20px;
+}
+
+.bottom-links a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+    /* Add this line to underline the link */
+}
+
+.bottom-links a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+    /* Keep the underline on hover as well */
+}
+
+.Ex a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+    /* Add this line to underline the link */
+}
+
+.Ex a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+    /* Keep the underline on hover as well */
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.payment-methods img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.payment-line {
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.india-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #fff;
+    /* Border around the section */
+    border-radius: 8px;
+    /* Rounded corners for the rectangle */
+    background-color: #333;
+    /* Background color for contrast */
+    margin-top: 20px;
+    width: auto;
+}
+
+.india-section .flag {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* Space between flag and text */
+}
+
+.india-section .india-text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.copyright {
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.imprint-link {
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer .col-md-3 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer .social-media li {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .footer .bottom-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .bottom-links li {
+        margin-bottom: 10px;
+    }
+
+    .payment-methods {
+        flex-direction: column;
+    }
+
+    .india-section {
+        flex-direction: column;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .imprint-link {
+        text-align: left;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer .col-md-3 {
+        flex-basis: 25%;
+    }
+
+    .footer-row {
+        flex-direction: row;
+    }
+}
